@@ -1,12 +1,14 @@
 import "./App.scss";
-import Photo from './assets/images/hsb.jpeg'
+import MainPage from "./components/MainPage";
+
+// import Photo from './assets/images/hsb.webp'
 
 function App() {
   return (
     <div className="container">
       <p>Nawigation</p>
       <div>
-        <img src={Photo} alt="Handsome Boys" />
+      <MainPage/>
       </div>
       <p>Footer</p>
     </div>

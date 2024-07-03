@@ -1,0 +1,27 @@
+.intro {
+    width: 1280px;
+    // background-color: black;
+    .image {
+      position: relative;
+      height: 45rem;
+    //   filter: sepia(90%);
+      filter: grayscale(90%);
+      .content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 3rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        h1 {
+        //   color: rgb(19, 139, 199);
+          font-size: 7rem;
+        //   font-weight:bold;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          text-shadow: 0.2rem 0.2rem black;
+        }
+        
+        
+      }
+    }}
