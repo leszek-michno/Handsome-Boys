@@ -14,9 +14,9 @@ const NavBarPl = () => {
       
   const list = [
     { name: "strona główna", path: "/" },
-    { name: "nasze granie", path: "Nasze_granie" },
+    { name: "nasze granie", path: "Nasze granie" },
+    { name: "koncerty", path: "Koncerty" },
     { name: "kontakt", path: "Kontakt" },
-    // { name: "Kontakt", path: "Kontakt" },
     // { name: "Galeria", path: "Galeria" },
   ];
 

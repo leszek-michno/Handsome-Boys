@@ -21,7 +21,7 @@ const MainPageTexe = () => {
         starań można zobaczyć i posłuchać...{" "}
       </p>
       <div className="button">
-        <NavLink to="Nasze_granie">...tutaj</NavLink>
+        <NavLink to="Nasze granie">...tutaj</NavLink>
       </div>
       <p>
         Wykonujemy piosenki takich tuzów muzyki rockabilly jak Eddie Cochran,

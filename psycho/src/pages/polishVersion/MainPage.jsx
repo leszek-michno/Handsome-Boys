@@ -6,10 +6,9 @@ import MainPageTexe from "../../components/MainPageTexe";
 const MainPage = () => {
   return (
     <div className="intro">
-    <Parallax className="image" bgImage={Mainphoto} strength={200} >
+    <Parallax className="image" bgImage={Mainphoto} strength={150} blur={0.5}>
       <header className="content">
         <h1>HANDSOME BOYS</h1>
-        {/* <h1>BOYS</h1> */}
       </header>
     </Parallax>
     <MainPageTexe/>

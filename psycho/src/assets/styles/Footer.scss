@@ -1,0 +1,39 @@
+@import './Variables.scss';
+
+.footer {
+  background-color:  #111216; 
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1rem;
+  color: $colorGrey;
+  border-top: solid 0.05rem $colorGrey;  
+    a {
+      text-decoration: none;
+      margin: 0.4rem;
+      color: $colorGrey;
+      font-size: 1rem;
+      &:hover{
+        color: $colorBlue;
+      }
+    }
+  }
+
+  @media (max-width: 650px) {
+    .footer{
+      width: 80%;
+      flex-direction: column;
+      div{
+        a{
+          flex-direction: row;
+          margin: 1rem;
+        }
+      }
+    }
+    
+  }
+
+

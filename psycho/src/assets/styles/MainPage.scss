@@ -30,8 +30,10 @@
   .intro{
     width: 100%;
     .image{
+    
       max-width: 100%;
       max-height: 40rem;
+    
       
       .content{   
         margin-bottom: 0;     
@@ -68,6 +70,9 @@
 @media screen and (max-width: 650px){
   .intro{
     width: 100%;
+    .parallax-image {
+      display: none;
+    }
     .image{
       max-width: 100%;
       max-height: 18rem;
