@@ -5,6 +5,7 @@ import {
   AiOutlineMail,
   AiFillYoutube,
 } from "react-icons/ai";
+import ContactForm from "../../components/ContactForm";
 
 const Contact = () => {
   return (
@@ -31,6 +32,7 @@ const Contact = () => {
           <AiOutlineInstagram />
         </a>
       </div>
+      <ContactForm/>
     </div> 
 
   );
