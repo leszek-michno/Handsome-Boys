@@ -1,4 +1,4 @@
-import "../assets/styles/Footer.scss";
+import "../assets/styles/_Footer.scss";
 import {
   AiOutlineInstagram,
   AiOutlineFacebook,
@@ -18,14 +18,14 @@ const Footer = () => {
 
         <div className="social-media">
           <a
-            href={""}
+            href={"https://www.facebook.com/profile.php?id=61562374262466"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <AiOutlineFacebook />
           </a>
           <a
-            href={""}
+            href={"https://www.instagram.com/handsomeboys_rockabilly/"}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../assets/styles/NavBar.scss";
+import "../assets/styles/_NavBar.scss";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 // import FlagaGB from '../assets/images/flaga_GB.svg'
 // import NavBarEng from "./NavBarEng";
@@ -14,7 +14,7 @@ const NavBarPl = () => {
       
   const list = [
     { name: "strona główna", path: "/" },
-    { name: "nasze granie", path: "Nasze granie" },
+    { name: "nasze granie", path: "Nasze_granie" },
     { name: "koncerty", path: "Koncerty" },
     { name: "kontakt", path: "Kontakt" },
     // { name: "Galeria", path: "Galeria" },

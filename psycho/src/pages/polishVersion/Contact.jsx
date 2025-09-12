@@ -1,4 +1,4 @@
-import "../../assets/styles/Contact.scss";
+import "../../assets/styles/_Contact.scss";
 import {
   AiOutlineInstagram,
   AiOutlineFacebook,
@@ -6,6 +6,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import ContactForm from "../../components/ContactForm";
+// import imghsb from '../../assets/images/hsb.webp'
 
 const Contact = () => {
   return (
@@ -33,6 +34,7 @@ const Contact = () => {
         </a>
       </div>
       <ContactForm/>
+      {/* <img src={imghsb} alt="photo" /> */}
     </div> 
 
   );

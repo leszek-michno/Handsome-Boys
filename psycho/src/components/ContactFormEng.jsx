@@ -35,18 +35,18 @@ const ContactForm = () => {
     return (
         <section className="contactForm">
           <form onSubmit={onSubmit}>
-            <h2>napisz do nas</h2>
+            <h2>write to us</h2>
             <div className="input-box">
-              {/* <label>twoje imię</label> */}
-              <input type="text" placeholder="wpisz imię" name='name' required/>
+              <label>your name</label>
+              <input type="text" placeholder="enter your name" name='name' required/>
             </div>
             <div className="input-box">
-              {/* <label>twój e-mail adres</label> */}
-              <input type="email" placeholder="wpisz swój e-mail adres" name='email' required/>
+              <label>your email address</label>
+              <input type="email" placeholder="enter your email address" name='email' required/>
             </div>
             <div className="input-box">
-              {/* <label>twoja wiadomość</label> */}
-              <textarea type="text" name="message" placeholder='wpisz swoją wiadomość' required/>
+              <label>your message</label>
+              <textarea type="text" name="message" placeholder='enter your message' required/>
             </div>
             <button type='submit'>wyślij wiadomość</button>
           </form>
